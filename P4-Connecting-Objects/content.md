@@ -61,11 +61,11 @@ You can also check out any Connections via the `Connection Inspector` panel.
 
 Great, let's see this in action.  Time to run the app...
 
-Click the Button a few times and success, the *Debug Panel* will now start to fill up with your `Ouch` message.
+> [action]
+> Click the Button a few times and success, the *Debug Panel* will now start to fill up with your `Ouch` message.
+> ![image](debug_1.png)
 
-![image](debug_1.png)
-
-Excellent, let's see how you handle yourself and move onto outlets.
+Excellent, let's see how you handle yourself with outlets.
 
 ##Outlets
 
@@ -79,25 +79,19 @@ Time to try this out for yourself, see if you can:
 > 3. Connect your View's Label to your code's label variable.
 > 4. Have the label text change upon pressing the button.
 
-<div class="solution" title="Adding an IBOutlet"></div>
-Your view *ViewController* should look something like this:
-```
-class ViewController: UIViewController {
-    
-    @IBOutlet var label: UILabel!
-
-    ...
-```
-
-<div class="solution" title="Modifying the label"></div>
-Let's look at modifying the `buttonTapped` function to faciliate this.
-
-```
+> [solution]
+> Your view *ViewController* should look something like this:
+    class ViewController: UIViewController {
+>        
+        @IBOutlet var label: UILabel!
+>
+> Let's look at modifying the `buttonTapped` function to faciliate this.
+>
     @IBAction func buttonTapped(sender: AnyObject) {
         println("Ouch")
         label.text = "wooo hoo"
     }
-```
+>
 
 ##Bonus Points
 Have some fun, create other objects in your *View* and connect them. Best way to learn is to play.
@@ -108,17 +102,16 @@ Sometimes things go wrong in development, at times it can be challenging to find
 
 Let's jump in and add a breakpoint.
 
-<div class="action"></div>
-1. Open `ViewController.swift`
-2. Click on the left hand side of your code, across from `println("Ouch")`, you should see a blue highlight appear.
-
-![image](breakpoint_1.png)
+> [action]
+> 1. Open `ViewController.swift`
+> 2. Click on the left hand side of your code, across from `println("Ouch")`, you should see a blue highlight appear.
+>![image](breakpoint_1.png)
 
 Time to see it in action. 
 
-<div class="action"></div>
-1. Run your App
-2. Click on the Button
+> [action]
+> 1. Run your App
+> 2. Click on the Button in your App
 
 Xcode will now change and you will be taken back into your code with debug mode enabled.  Your App has been effectivley halted at the *Breakpoint* and is waiting to execute the `println` line of code.
 
@@ -126,30 +119,33 @@ Xcode will now change and you will be taken back into your code with debug mode 
 
 As you can see there is a lot of information disabled, we will be looking at the *Variables* view, Xcode will automatically present you with the variables in the current scope.
 
-<div class="action"></div>
-1. Click on `self` to expand the current `ViewController` variable scope.
-2. Right click on `label` and select `Print Description of "label"`
+> [action]
+> 1. Click on `self` to expand the current `ViewController` variable scope.
+> 2. Right click on `label` and select `Print Description of "label"`
 
 You will notice there is a handy quick view of your label, notice the label text has not been changed yet as this line of code has not been executed yet.
 
 ![image](debug_2.png)
 
+##Debug Stepping
+
 Let's step through the code together.
 
-<div class="action"></div>
-1. Press the `Step Over` button.  You will see your println code has now been executed and the output is in the debug window)
-2. Press `Step Over` once again and then select `Print Description of "label"`, you will see this has now been udpated.
+> [action]
+> 1. Press the `Step Over` button.  You will see your println code has now been executed and the output is in the debug window.
+> 2. Press `Step Over` once again and then select `Print Description of "label"`, you will see this has been udpated.
 
 ![image](debug_view_2.png)
 
 Bring your Simulator back into view and you will notice the label hasn't changed...
 This is because although the code has updated the labels text value, the App still needs to refresh it's View to present this information.
 
-<div class="action"></div>
-1. Select `Continue Program Execution` it's the button beside `Step Over`
+> [action]
+> 1. Select `Continue Program Execution` it's the button beside `Step Over`
 
-The App will resume running again and you will notice your Label has been udpated.  If you select the button again, the breakpoint will be triggered and you will be taken back to the debug mode as before.
+The App will resume running again and you will notice your Label has been udpated.  If you select the button again, the breakpoint will 
+be triggered and you will be taken back to the debug mode as before.
 
-We have touched briefly on a lot of different key areas, the best way to improve is to practice, practice, pracice...
+We have touched briefly on a lot of different key areas, the best way to embed new skills is practice, practice, pracice...
 
 So with out further ado, let's take all of this new knowledge and start to build the *MakeSchool Notes App*
