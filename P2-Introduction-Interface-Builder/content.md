@@ -3,7 +3,7 @@ title: "Introduction to Interface Builder"
 slug: interface-builder
 ---     
 
-You now have a blank app that runs, no point in waiting any longer, let's get stuck in and get acquainted with Interface Builder. 
+You now have a blank app that runs. No point in waiting any longer, let's jump right in and get acquainted with Interface Builder. 
 The Interface Builder editor within Xcode makes it simple to design a full user interface without writing any code.
 
 ##Views
@@ -27,15 +27,15 @@ This will open our *LaunchScreen* XIB (XML Interface Builder) in the Interface B
 > [action]
 > As show in the above image, click on the *SimpleApp* Label item, located under the *View* hierarchy.  This will highlight the 'SimpleApp' label as shown.
 
-You will notice on the right hand side the blue pencil looking icon has been selected, this is the *Attributes Inspector* panel and gives you great control over the currently selected
+You will notice on the right hand side the blue pencil looking icon has been selected. This is the *Attributes Inspector* panel and gives you great control over the currently selected
 resources attributes.
 
-A *View* is nice to look at however it is one of three interconnected parts that comprise the Model-View-Controller (MVC) design pattern (we will be discussing this in more detail).
+A *View* is nice to look at. However, it is one of three interconnected parts that comprise the Model-View-Controller (MVC) design pattern (we will be discussing this in more detail).
 Before we move onto the next section to explore the *ViewController*, let's have some fun with the loading screen view.
 
 ##Freestyle
 
-Design the loading screen of your dreams or create the most ridiculous :)
+Design the loading screen of your dreams or create the most ridiculous one you can :)
 
 **Hint:** Have a look at the object library at the bottom of the panel, drag n drop a few objects in and also check out their respective attributes.
 
