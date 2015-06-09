@@ -44,7 +44,7 @@ Time to save your project to disk:
 ![image](xcode_project_2.png)
 
 I would recommend enabling the *Create Git repository* option at the bottom of the dialog.  For a project this size it may not be strictly necessary. However, it's a great habit to get into
-and source control has saved many a developer's life.  We will explore Source Control with Git a bit later on in this tutorial.
+and source control has saved many a developers' life.  We will explore Source Control with Git a bit later on in this tutorial.
 
 If you would like some further reading on the joys of Git, you should check out the [Wikipedia Git](http://en.wikipedia.org/wiki/Git_%28software%29)
 
@@ -58,6 +58,6 @@ That was quick...
 
 ![image](simulator_1.png) ![image](simulator_2.png)
 
-The first image shows the loading *View* and then loads in our default *ViewController*. As expected it's blank canvas crying out to be worked on.
+The first image shows the loading *View* and then loads in our default *ViewController*. As expected it's a blank canvas crying out to be worked on.
 
 Let's move on and take a look at the *Interface Builder*.

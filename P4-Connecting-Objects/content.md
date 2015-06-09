@@ -40,7 +40,7 @@ to the Interface Builder.  Notice the little empty circle in the code editor to 
 > Select the `Assitant Editor` view
 > ![image](ibaction_connection_1.png)
 
-If you don't see the view shown above, you will need to change the right panel back to `Automatic`, you previously changed it to enable the Interface Builder preview mode.
+If you don't see the view shown above, you will need to change the right panel back to `Automatic`. You previously changed it to enable the Interface Builder preview mode.
 
 ![image](automatic_view.png)
 
@@ -98,7 +98,7 @@ Have some fun, create other objects in your *View* and connect them. Best way to
 
 ##Debugging
 
-Sometimes things go wrong in development, at times it can be challenging to find out why a certain piece of code isn't working.  Xcode has a nice Debugger and it's relativley easy to use.
+Sometimes things go wrong in development. At times it can be challenging to find out why a certain piece of code isn't working.  Xcode has a nice Debugger and it's relatively easy to use.
 
 Let's jump in and add a breakpoint.
 
@@ -113,11 +113,11 @@ Time to see it in action.
 > 1. Run your App
 > 2. Click on the Button in your App
 
-Xcode will now change and you will be taken back into your code with debug mode enabled.  Your App has been effectivley halted at the *Breakpoint* and is waiting to execute the `println` line of code.
+Xcode will now change and you will be taken back into your code with debug mode enabled.  Your App has been effectively halted at the *Breakpoint* and is waiting to execute the `println` line of code.
 
 ![image](debug_view_1.png)
 
-As you can see there is a lot of information disabled, we will be looking at the *Variables* view, Xcode will automatically present you with the variables in the current scope.
+As you can see there is a lot of information displayed. We will be looking at the *Variables* view, where Xcode will automatically present you with the variables in the current scope.
 
 > [action]
 > 1. Click on `self` to expand the current `ViewController` variable scope.
@@ -138,7 +138,7 @@ Let's step through the code together.
 ![image](debug_view_2.png)
 
 Bring your Simulator back into view and you will notice the label hasn't changed...
-This is because although the code has updated the labels text value, the App still needs to refresh it's View to present this information.
+This is because although the code has updated the labels text value, the App still needs to refresh its View to present this information.
 
 > [action]
 > 1. Select `Continue Program Execution` it's the button beside `Step Over`

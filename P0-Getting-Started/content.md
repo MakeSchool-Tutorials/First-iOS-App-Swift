@@ -6,7 +6,7 @@ slug: getting-started
 This tutorial will teach you how to build your very first iPhone App! 
 By the end of this tutorial you will have created your own enhanced version of the classic *Notes* app that comes with every iOS device.  
 
-Now I'm sure your ready to tackle this challenge after getting a taste of development in the Swift Playground, however before we dive straight into this fully fledged Application, let's
+Now I'm sure you're ready to tackle this challenge after getting a taste of development in the Swift Playground, however before we dive straight into this fully fledged Application, let's
 start with something a little smaller to introduce Application building in Xcode.
 
 We are going to take brief tour through the following key areas:
