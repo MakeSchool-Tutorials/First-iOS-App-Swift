@@ -26,7 +26,7 @@ You will then be presented with the following project options:
 
 ![image](xcode_started_2.png)
 
-As you can see there are a lot of options hoewver let's take it easy and start off by selecting `Single View Application` and select *Next*.
+As you can see there are a lot of options, however let's take it easy and start off by selecting `Single View Application` and select *Next*.
 
 ##Project Options
 
@@ -34,7 +34,7 @@ You will now be presented with the new project options:
 
 ![image](xcode_project.png)
 
-Feel free to give it whatever Product Name or Organization Name you like, it's your project after all. 
+Feel free to give it whatever Product Name or Organization Name you like; it's your project after all. 
 Please ensure you selected *Swift* as the choice for *Language*, then select *Next*.
 
 ##Source Control
@@ -43,8 +43,8 @@ Time to save your project to disk:
 
 ![image](xcode_project_2.png)
 
-I would recommend enabling the *Create Git repository* option at the bottom of the dialog.  For a project this size it may not be strictly necessary however it's a great habit to get into
-and source control has saved many a developers life.  We will explore Source Control with Git a bit later on in this tutorial.
+I would recommend enabling the *Create Git repository* option at the bottom of the dialog. For a project this size it may not be strictly necessary however it's a great habit to get into,
+and source control has saved many a developers' life.  We will explore Source Control with Git a bit later on in this tutorial.
 
 If you would like some further reading on the joys of Git, you should check out the [Wikipedia Git](http://en.wikipedia.org/wiki/Git_%28software%29)
 
@@ -58,6 +58,6 @@ That was quick...
 
 ![image](simulator_1.png) ![image](simulator_2.png)
 
-The first image shows the loading *View* and then loads in our default *ViewController*, as expected it's blank canvas crying out to be worked on.
+The first image shows the loading *View* and then loads in our default *ViewController*, as expected it's a blank canvas crying out to be worked on.
 
 Let's move on and take a look at the *Interface Builder*.
