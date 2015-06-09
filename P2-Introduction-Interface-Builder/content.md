@@ -30,7 +30,7 @@ This will open our *LaunchScreen* XIB (XML Interface Builder) in the Interface B
 You will notice on the right hand side the blue pencil looking icon has been selected. This is the *Attributes Inspector* panel and gives you great control over the currently selected
 resources attributes.
 
-A *View* is nice to look at. However, it is one of three interconnected parts that comprise the Model-View-Controller (MVC) design pattern (we will be discussing this in more detail).
+*Views* are one of three interconnected parts that comprise the Model-View-Controller (MVC) design pattern (we will be discussing this in more detail).
 Before we move onto the next section to explore the *ViewController*, let's have some fun with the loading screen view.
 
 ##Freestyle
