@@ -98,7 +98,7 @@ Have some fun, create other objects in your *View* and connect them. Best way to
 
 ##Debugging
 
-Sometimes things go wrong in development, at times it can be challenging to find out why a certain piece of code isn't working.  Xcode has a nice Debugger and it's realtivley easy to use.
+Sometimes things go wrong in development, at times it can be challenging to find out why a certain piece of code isn't working.  Xcode has a nice Debugger and it's relativley easy to use.
 
 Let's jump in and add a breakpoint.
 

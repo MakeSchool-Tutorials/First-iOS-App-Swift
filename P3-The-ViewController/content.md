@@ -21,9 +21,9 @@ Let's take a sneak peek at the `MakeSchoolNotes` app.
 ![image](makeschool_notes_preview.png)
 
 I'm sure we have all seen these common design elements before in an app. You will soon learn how to build this app yourself. 
-Although we have only briefly touched on Views and ViewControllers, we have already convered the fundemental building blocks that you will use and and again.
+Although we have only briefly touched on Views and ViewControllers, we have already covered the fundamental building blocks that you will use again and again.
 
-Now would be a great time to introdce *Storyboards*.
+Now would be a great time to introduce *Storyboards*.
 
 ##Storyboards
  
@@ -57,7 +57,7 @@ Thankfully you've started developing at the right time and this issue is not as 
 was introduced which gives you even greater power to create single layout designs that will work across all devices.  Let's first look at the foundation of Auto Layout.
 
 ##Preview
-You will be utilising *Preview* functionality to quickly visualise your design across devices and sanity check your layouts.
+You will be utilizing *Preview* functionality to quickly visualize your design across devices and sanity check your layouts.
 
 > [action]
 > Enable the `Assistant Editor`.
@@ -97,7 +97,7 @@ Let's delve into some basic Auto Layout functionality.
  
 You will see that a `Constraint` has been added to the *Outline View*
   
-A constraint defines a realtionship between two user interface objects that must be satisfied by the constaint-based
+A constraint defines a realtionship between two user interface objects that must be satisfied by the constraint-based
 layout system.  In this case between the `Button` and the `View`.
  
 ![image](outline_constraint.png)
@@ -106,7 +106,7 @@ If you look in preview mode may notice a discrepancy between our View design and
 
 ![image](preview_wrong.png)
 
-Argh, it's at the top! That's beacuse no vertical constraint has been set.  If you click on the Button you will notice an orange, this is to warn you that your missing a vertical constraint.
+Argh, it's at the top! That's beacuse no vertical constraint has been set.  If you click on the Button you will notice an orange outline above it, this is to warn you that your missing a vertical constraint.
 
 ![image](constraint_warning.png)
 
@@ -114,12 +114,12 @@ Argh, it's at the top! That's beacuse no vertical constraint has been set.  If y
 
 > [action]
 > Select your `Button` and then click on *Pin*
-> Click on the `Bottom` constraint and then select the `View (current distance = 20)` (Your value may be differ)
+> Click on the `Bottom` constraint and then select the `View (current distance = 20)` (Your value may be different)
 > Click `Add 1 Constraint`
 >
 > ![image](constraint_pin.png)
 
-Wooo hoo, the `Button` now appears in our preview at the bottom where we expect it to be. At the bottom of the preview you can orientation: 
+Wooo hoo, the `Button` now appears in our preview at the bottom where we expect it to be. At the bottom of the preview you can change orientation: 
 
 > [action] 
 > Change to landscape and you will it's yet again in the middle of the app and at the bottom.
@@ -130,7 +130,7 @@ It's great to understand how to add constraints manually and this will come in h
 and most of the time it's very effective and can save you a lot of time.
 
 > [action]
-> In *Outline View* expand the 'Constraints' item which will reveal you `Label` constraints, please select each constraint and delete it.  The `Constraints` parent itemwill automatically
+> In *Outline View* expand the 'Constraints' item which will reveal your `Label` constraints, please select each constraint and delete it.  The `Constraints` parent item will automatically
 > disappear when it has no child constraints.
 >
 > Now let's use resolve to auto set the constraints for the button.
@@ -159,7 +159,7 @@ and `LaunchScreen.xib` have been modified. If you click on one of these files, t
 > Enter a message in the `Enter commit message here` field, something like 'Add Button to View, Applied constraints'
 > Select `Commit 2 Files`
  
-This will now be commited, if you want double check
+This will now be commited, if you want to double check
  
 > [action]
 > Select `Source Control` then `History...`
