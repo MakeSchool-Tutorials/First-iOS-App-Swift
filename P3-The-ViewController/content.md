@@ -81,10 +81,10 @@ Let's delve into some basic Auto Layout functionality.
 ##Object Library
 
 > [action]
-> Open the *Object Library* and find the`Button` object, add this to your view.
+> Open the *Object Library* and find the`Button` object, add this in by dragging it over to your view.
 > ![image](object_library.png)
 >
-> You will notice that dashed blue lines will appear at certain positions, these are know as *Guides* and are helpful hints to make aligning your views much easier.
+> You will notice that dashed blue lines will appear at certain positions, these are known as *Guides* and are helpful hints to make aligning your views much easier.
 > 
 > ![image](view_guidelines.png)
 
