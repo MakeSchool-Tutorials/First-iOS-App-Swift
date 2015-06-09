@@ -133,6 +133,8 @@ and most of the time it's very effective and can save you a lot of time.
 > In *Outline View* expand the 'Constraints' item which will reveal your `Label` constraints, please select each constraint and delete it.  The `Constraints` parent item will automatically
 > disappear when it has no child constraints.
 >
+> ![image](delete_constraints.png)
+>
 > Now let's use resolve to auto set the constraints for the button.
 > From the main menu, Select `Editor\Resolve Auto Layout Issues\(Selected Views) Reset to Suggested Constraints`
 >
