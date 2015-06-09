@@ -48,6 +48,10 @@ and source control has saved many a developers' life.  We will explore Source Co
 
 If you would like some further reading on the joys of Git, you should check out the [Wikipedia Git](http://en.wikipedia.org/wiki/Git_%28software%29)
 
+You might end up with a pop-up that looks like this. You must hit allow to continue, but we recommend you choose `Always Allow`.
+
+![image](xcode_permission_popup.png)
+
 ##Run, Run, Run
 
 It's always good to check that a project works before starting any new work. Simply hit the *Play* icon to *Build* and *Run* the application.
