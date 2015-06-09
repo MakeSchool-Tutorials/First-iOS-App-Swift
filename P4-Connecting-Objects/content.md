@@ -83,7 +83,7 @@ Time to try this out for yourself, see if you can:
 > Your view *ViewController* should look something like this:
     class ViewController: UIViewController {
 >        
-        @IBOutlet var label: UILabel!
+        @IBOutlet weak var label: UILabel!
 >
 > Let's look at modifying the `buttonTapped` function to faciliate this.
 >
