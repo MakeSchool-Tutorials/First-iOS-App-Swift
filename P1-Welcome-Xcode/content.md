@@ -34,7 +34,7 @@ You will now be presented with the new project options:
 
 ![image](xcode_project.png)
 
-Feel free to give it whatever ProductName or Orginization Name you like, it's your project after all. 
+Feel free to give it whatever Product Name or Organization Name you like, it's your project after all. 
 Please ensure you selected *Swift* as the choice for *Language*, then select *Next*.
 
 ##Source Control
