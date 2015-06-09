@@ -70,7 +70,7 @@ You will be utilizing *Preview* functionality to quickly visualize your design a
 >
 > ![image](assistant_select_preview.png)
 >
-> At this point it's really useful to enable *Show Document Outline*; this will give you a hierarchy view for your Scene. You should then select `View`
+> At this point the *Outline View* can be very useful; it will give you a hierarchy view for your Scene. If you don't see it in your XCode Workspace, choose *Editor* > *Show Document Outline*, or click the disclosure arrow in the lower-left corner of the XCode Editor. From there, select `View`.
 >
 > ![image](storyboard_outline_preview.png)
 
@@ -81,7 +81,7 @@ Let's delve into some basic Auto Layout functionality.
 ##Object Library
 
 > [action]
-> Open the *Object Library* and find the`Button` object, add this to your view.
+> Open the *Object Library* and find the `Button` object, add this to your view.
 > ![image](object_library.png)
 >
 > You will notice that dashed blue lines will appear at certain positions. These are know as *Guides* and are helpful hints to make aligning your views much easier.
@@ -98,7 +98,7 @@ Let's delve into some basic Auto Layout functionality.
 You will see that a `Constraint` has been added to the *Outline View*
   
 A constraint defines a realtionship between two user interface objects that must be satisfied by the constraint-based
-layout system.  In this case between the `Button` and the `View`.
+layout system, in this case between the `Button` and the `View`.
  
 ![image](outline_constraint.png)
 
@@ -130,7 +130,7 @@ It's great to understand how to add constraints manually, and this will come in 
 and most of the time it's very effective and can save you a lot of time.
 
 > [action]
-> In *Outline View* expand the 'Constraints' item which will reveal your `Label` constraints, please select each constraint and delete it.  The `Constraints` parent item will automatically
+> In your *Outline View*, expand the 'Constraints' item to reveal your `Label` constraints, and delete them all.  The `Constraints` parent item will automatically
 > disappear when it has no child constraints.
 >
 > Now let's use resolve to auto set the constraints for the button.
