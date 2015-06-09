@@ -5,12 +5,12 @@ slug: the-viewcontroller
 
 View controllers are a vital link between an app's data and its visual appearance. Whenever an iOS app displays a user interface, the displayed content is managed by a view controller or a group of view controllers coordinating with each other. Therefore, view controllers provide the skeletal framework on which you build your apps.
 
-The `UIViewController` class is at the heart of the view-management model, you will rarely instantiate `UIViewController` objects directly. Instead you will instantiate subclasses.
+The `UIViewController` class is at the heart of the view-management model, you will rarely instantiate `UIViewController` objects directly. Instead you will instantiate subclasses of UIViewController.
 
-A subclass simply put is a class that can inherit methods, properties and other characteristics from another class.  
+A subclass simply put is a class that inherits methods, properties and other characteristics from a super/parent class.  
 This is called inheritance. I would recommend further reading on this topic, as you will be making frequent use of this functionality. [Inheritance In Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Inheritance.html)
 
-It is super easy to implement in code:
+It is super easy to implement in code. As you can see here, the subclass is on the left 'MakeSchoolViewController' and the superclass is on the right 'UIViewController'. Both seperated by a colon: 
 
 	class MakeSchoolViewController: UIViewController {
 		// Add our MakeSchool specific functionality
@@ -27,7 +27,7 @@ Now would be a great time to introduce *Storyboards*.
 
 ##Storyboards
  
-A storyboard is a visual representation of the app's user interface, showing screens of content and the transitions between them. You use storyboards to lay out the flow of your app.
+A storyboard file is a visual representation of an app's user interface. It shows each view controller within a particular storyboard, along with the visual content of that view controller. Storyboards also display the transitions between each view controller, much like a true wire frame. You can use storyboards to lay out the flow of your app and provide an eagle-eye view of the user interfaces that have been implemented.
 
 Let's dive straight in. 
 
@@ -39,11 +39,11 @@ Let's dive straight in.
 You will see the Storyboard which has the `ViewController` in the middle, there is an arrow on the left hand side, this arrow lets the application know which `ViewController` will be used as the default 
 upon app launch.
 
-Notice *Identity Inspector* in the *Utilities Panel* is selected. You will see that the class identifier under `Custom Class` is set to `ViewController`.
+Notice *Identity Inspector* in the *Utilities Panel* is selected. You will see that the class identifier under `Custom Class` is set to `ViewController`. This is where you enter the name of your custom subclass 'XYZViewController'
 
 ![image](identity_inspector.png)
 
-If you recall, you will rarely instantiate `UIViewController` directly and instead you will instantite a subclass. In this case `ViewController` is our custom subclass of `UIViewController`, you will also
+Again, you will rarely instantiate a `UIViewController` object directly - instead you will instantite a subclass. In this case `ViewController` is our custom subclass of `UIViewController`, you will also
 notice there is a corresponding `ViewController.swift` file that defines this custom class.
 
 I know you are itching to do some actual coding, however before we start let's have a look at a powerful feature called *Auto Layout*.
