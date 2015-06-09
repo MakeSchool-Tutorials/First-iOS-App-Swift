@@ -63,10 +63,10 @@ You will be utilizing *Preview* functionality to quickly visualize your design a
 > Enable the `Assistant Editor`.
 > ![image](assistant_editor.png)
 >
-> You will see your *Storyboard* on the left side and most likely you will see the *ViewController* swift code.  
+> You will see your *Storyboard* on the left side and most likely you will see the *ViewController* swift code on the right.  
 > You want to ensure you are using *Preview* mode: 
 >
-> Click on the `Automatic` label in the header and Select `Preview (1) > Main.storyboard (Preview)`:
+> At the top left of the right side, click on the `Automatic` label in the header and Select `Preview (1) > Main.storyboard (Preview)`:
 >
 > ![image](assistant_select_preview.png)
 >
