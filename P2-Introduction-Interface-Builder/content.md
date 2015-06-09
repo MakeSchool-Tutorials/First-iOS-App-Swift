@@ -8,7 +8,7 @@ The Interface Builder editor within Xcode makes it simple to design a full user 
 
 ##Views
 
-In iOS, you use windows and views to present your application's content on the screen. Windows do not have any visible content themselves but provide a basic container 
+In iOS, you use view controllers and views to present your application's content on the screen. View controllers do not have any visible content themselves but provide a basic container 
 for your application's views. 
 Views define a portion of a window that you want to fill with some content. For example, you might have views that display images, text, shapes, or some combination thereof. 
 You can also use views to organize and manage other views.
@@ -31,7 +31,7 @@ You will notice on the right hand side the blue pencil looking icon has been sel
 resources attributes.
 
 A *View* is nice to look at however it is one of three interconnected parts that comprise the Model-View-Controller (MVC) design pattern (we will be discussing this in more detail).
-Before we move onto the next section to explore the **ViewController*, let's have some fun with the loading screen view.
+Before we move onto the next section to explore the *ViewController*, let's have some fun with the loading screen view.
 
 ##Freestyle
 
