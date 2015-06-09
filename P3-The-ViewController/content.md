@@ -122,7 +122,7 @@ Argh, it's at the top! That's because no vertical constraint has been set.  If y
 Wooo hoo, the `Button` now appears in our preview at the bottom where we expect it to be. At the bottom of the preview you can change orientation: 
 
 > [action] 
-> Change to landscape and you will it's yet again in the middle of the app and at the bottom.
+> Change to landscape and you will see it's yet again in the middle of the app and at the bottom.
 
 ##Resolve Auto Layout Issues
 
