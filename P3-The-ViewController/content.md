@@ -70,7 +70,7 @@ You will be utilizing *Preview* functionality to quickly visualize your design a
 >
 > ![image](assistant_select_preview.png)
 >
-> At this point it's really useful to enable *Show Document Outline*; this will give you a hierarchy view for your Scene. You should then select `View`
+> At this point it's really useful to enable *Show Document Outline* by selecting `Editor > Show Document Outline`; this will give you a hierarchy view for your Scene. You should then select `View`
 >
 > ![image](storyboard_outline_preview.png)
 
