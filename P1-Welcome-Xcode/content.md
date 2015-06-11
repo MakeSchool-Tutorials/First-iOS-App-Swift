@@ -46,7 +46,7 @@ Time to save your project to disk:
 I would recommend enabling the *Create Git repository* option at the bottom of the dialog.  For a project this size it may not be strictly necessary. However, it's a great habit to get into
 and source control has saved many a developers' life.  We will explore Source Control with Git a bit later on in this tutorial.
 
-If you would like some further reading on the joys of Git, you should check out the [Wikipedia Git](http://en.wikipedia.org/wiki/Git_%28software%29)
+If you would like some further reading on the joys of Git, you should check out the [Wikipedia Git](http://en.wikipedia.org/wiki/Git_%28software%29).
 
 You might end up with a pop-up that looks like this. You must hit allow to continue, but we recommend you choose `Always Allow`.
 
