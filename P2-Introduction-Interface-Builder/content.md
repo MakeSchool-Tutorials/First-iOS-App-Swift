@@ -35,7 +35,7 @@ Before we move onto the next section to explore the *ViewController*, let's have
 
 ##Freestyle
 
-Design the loading screen of your dreams or create the most ridiculous one you can :)
+Design the loading screen of your dreams or create the most ridiculous one you can!
 
 Have a look at the object library at the bottom of the right panel (be sure to click on the 3rd icon, the circle with the square inside). Drag and drop a few objects into the view and also check out their respective attributes. Then hit the play button in the upper left again to see your new loading view in the simulator. 
 
