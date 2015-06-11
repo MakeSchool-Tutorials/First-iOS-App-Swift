@@ -7,10 +7,9 @@ View controllers are a vital link between an app's data and its visual appearanc
 
 The `UIViewController` class is at the heart of the view-management model. You will rarely instantiate `UIViewController` objects directly. Instead you will instantiate subclasses.
 
-A subclass, simply put, is a class that can inherit methods, properties and other characteristics from another class.  
-This is called inheritance. I would recommend further reading on this topic as you will be making frequent use of this functionality. [Inheritance In Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Inheritance.html)
+A subclass, simply put, is a class that can inherit methods, properties and other characteristics from another class. This is called inheritance. I would recommend further reading on this topic as you will be making frequent use of this functionality. [Inheritance In Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Inheritance.html)
 
-It is super easy to implement in code:
+It is super easy to implement inheritance in code:
 
 	class MakeSchoolViewController: UIViewController {
 		// Add our MakeSchool specific functionality
@@ -43,8 +42,7 @@ Notice *Identity Inspector* in the *Utilities Panel* is selected. You will see t
 
 ![image](identity_inspector.png)
 
-If you recall, you will rarely instantiate `UIViewController` directly and instead you will instantiate a subclass. In this case `ViewController` is our custom subclass of `UIViewController`. You will also
-notice there is a corresponding `ViewController.swift` file that defines this custom class.
+If you recall, you will rarely instantiate `UIViewController` directly; instead, you will instantiate a subclass. In this case, `ViewController` is our custom subclass of `UIViewController`. You will also notice there is a corresponding `ViewController.swift` file that defines this custom class.
 
 I know you are itching to do some actual coding. However, before we start let's have a look at a powerful feature called *Auto Layout*.
 
@@ -62,14 +60,13 @@ You will be utilizing *Preview* functionality to quickly visualize your design a
 > Enable the `Assistant Editor`.
 > ![image](assistant_editor.png)
 >
-> You will see your *Storyboard* on the left side and most likely you will see the *ViewController* swift code on the right.  
-> You want to ensure you are using *Preview* mode: 
+> You will see your *Storyboard* on the left side and most likely you will see the *ViewController* swift code on the right. Ensure you are using *Preview* mode: 
 >
 > At the top left of the right side, click on the `Automatic` label in the header and Select `Preview (1) > Main.storyboard (Preview)`:
 >
 > ![image](assistant_select_preview.png)
 >
-> At this point the *Outline View* can be very useful; it will give you a hierarchy view for your Scene. If you don't see it in your XCode Workspace, choose *Editor* > *Show Document Outline*, or click the disclosure arrow in the lower-left corner of the XCode Editor. From there, select `View`.
+> At this point, the *Outline View* can be very useful; it will give you a hierarchy view for your Scene. If you don't see it in your XCode Workspace, choose *Editor* > *Show Document Outline*, or click the disclosure arrow in the lower-left corner of the XCode Editor. From there, select `View`.
 >
 > ![image](storyboard_outline_preview.png)
 
@@ -81,6 +78,7 @@ Let's delve into some basic Auto Layout functionality.
 
 > [action]
 > Open the *Object Library* and find the `Button` object, add this in by dragging it over to your view.
+> 
 > ![image](object_library.png)
 >
 > You will notice that dashed blue lines will appear at certain positions, these are known as *Guides* and are helpful hints to make aligning your views much easier.
@@ -118,7 +116,7 @@ Argh, it's at the top! That's because no vertical constraint has been set.  If y
 >
 > ![image](constraint_pin.png)
 
-Wooo hoo, the `Button` now appears in our preview at the bottom where we expect it to be. At the bottom of the preview you can change orientation: 
+Wooo hoo! The `Button` now appears in our preview at the bottom where we expect it to be. At the bottom of the preview you can change orientation: 
 
 > [action] 
 > Change to landscape and you will see that it's yet again in the middle of the app and at the bottom.
@@ -139,10 +137,9 @@ and most of the time it's very effective and can save you a lot of time.
 >
 > ![image](reset_constraints.png)
 
-Nice! You will see new constraints have been added and blue lines will show the constraints. Have a look in preview mode and you will see it is positioned
-just as you expect! This is a very handy feature and one to remember. (Hint Hint)
+Nice! You will see new constraints have been added. Blue lines represent these constraints. Have a look in preview mode and you will see it is positioned just as you expect! This is a very handy feature to remember. (Hint Hint)
 
-We have only just scratched the surface of Auto Layout. If you design with Auto Layout in mind from the beginning, you will be rewarded with an App that hopefully *Just Works* across devices and 
+We have only just scratched the surface of Auto Layout. If you design with Auto Layout in mind from the beginning, you will be rewarded with an App that hopefully *just works* across devices and 
 reduces the stress of supporting new devices in the future.
 
 ##Source Control
@@ -160,7 +157,7 @@ and `LaunchScreen.xib` have been modified. If you click on one of these files, t
 > Enter a message in the `Enter commit message here` field, something like 'Add Button to View, Applied constraints'
 > Select `Commit 2 Files`
  
-This will now be committed. If you want to double check
+This will now be committed. If you want to double check:
  
 > [action]
 > Select `Source Control` then `History...`

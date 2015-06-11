@@ -53,7 +53,7 @@ You now want to Connect your `IBAction` to the `Button`
 >
 > ![image](ibaction_connection_2.png)
 
-That was easy. Notice that the previously empty circle is now filled in, and that hovering your cursor over this circle highlights the `Button`, confirming the connection.
+That was easy! Notice that the previously empty circle is now filled in, and that hovering your cursor over this circle highlights the `Button`, confirming the connection.
 You can also check out any Connections via the `Connection Inspector` panel.
 
 ![image](connection_inspector_1.png)
@@ -64,13 +64,13 @@ Great, let's see this in action.  Time to run the app...
 > Click the Button a few times and success, the *Debug Panel* will now start to fill up with your `Ouch` message.
 > ![image](debug_1.png)
 
-Excellent, let's see how you handle yourself with outlets.
+Excellent! Let's see how you handle yourself with outlets.
 
 ##Outlets
 
-You will want to use an *IBOutlet* to enable your code to send a message to your user interface object, for example changing the string of an interface label from your own code.
+You will want to use an *IBOutlet* to enable your code to send a message to your user interface object. For example, changing the string of an interface label from your own code.
 
-Time to try this out for yourself, see if you can:
+Time to try this out for yourself - see if you can:
 
 > [action]
 > 1. Add a label to your View 
@@ -99,7 +99,7 @@ Have some fun; create other objects in your *View* and connect them. The best wa
 
 Sometimes things go wrong in development. At times it can be challenging to find out why a certain piece of code isn't working.  Xcode has a nice Debugger and it's relatively easy to use.
 
-Let's jump in and add a breakpoint.
+Let's jump in by adding a breakpoint.
 
 > [action]
 > 1. Open `ViewController.swift`
@@ -137,14 +137,14 @@ Let's step through the code together.
 ![image](debug_view_2.png)
 
 Bring your Simulator back into view and you will notice the label hasn't changed...
-This is because although the code has updated the labels text value, the App still needs to refresh it's View to present this information.
+This is because although the code has updated the labels text value, the App still needs to refresh its View to present this information.
 
 > [action]
-> 1. Select `Continue Program Execution` it's the button beside `Step Over`
+> 1. Select `Continue Program Execution`. It's the button beside `Step Over`
 
 The App will resume running again and you will notice your Label has been updated.  If you select the button again, the breakpoint will 
 be triggered and you will be taken back to the debug mode as before.
 
-Now that we've touched briefly on a lot of key skills, the best way to further ingrain them is to practice, practice, pracice...
+Now that we've touched briefly on a lot of key skills, the best way to further ingrain them is to practice, practice, practice...
 
-So with out further ado, let's take all of this new knowledge and start to build the *MakeSchool Notes App*.
+Without further ado, let's take all of this new knowledge and start to build the *MakeSchool Notes App*.
