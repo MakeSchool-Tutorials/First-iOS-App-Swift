@@ -81,7 +81,7 @@ Let's delve into some basic Auto Layout functionality.
 ##Object Library
 
 > [action]
-> Open the *Object Library* and find the `Button` object, add this to your view.
+> Open the *Object Library* and find the `Button` object, add this in by dragging it over to your view.
 > ![image](object_library.png)
 >
 > You will notice that dashed blue lines will appear at certain positions, these are known as *Guides* and are helpful hints to make aligning your views much easier.
@@ -122,7 +122,7 @@ Argh, it's at the top! That's because no vertical constraint has been set.  If y
 Wooo hoo, the `Button` now appears in our preview at the bottom where we expect it to be. At the bottom of the preview you can change orientation: 
 
 > [action] 
-> Change to landscape and you will it's yet again in the middle of the app and at the bottom.
+> Change to landscape and you will see that it's yet again in the middle of the app and at the bottom.
 
 ##Resolve Auto Layout Issues
 
@@ -133,7 +133,9 @@ and most of the time it's very effective and can save you a lot of time.
 > In your *Outline View*, expand the 'Constraints' item to reveal your `Label` constraints, and delete them all.  The `Constraints` parent item will automatically
 > disappear when it has no child constraints.
 >
-> Now let's use resolve to auto-set the constraints for the button.
+> ![image](delete_constraints.png)
+>
+> Now let's use resolve to auto set the constraints for the button.
 > From the main menu, Select `Editor\Resolve Auto Layout Issues\(Selected Views) Reset to Suggested Constraints`
 >
 > ![image](reset_constraints.png)
