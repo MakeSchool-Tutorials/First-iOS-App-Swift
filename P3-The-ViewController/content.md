@@ -50,11 +50,10 @@ I know you are itching to do some actual coding. However, before we start let's 
 
 ##Auto Layout
 
-Back in days of old, designing an app was relativley straightforward.  You had one resolution to work with. With the iPad, developers would often develop two version of an app. However, those days 
-are gone and you can only expect to see more resolutions to deal with in the future.
+Back in days of old, designing an app was relatively straightforward.  You had one resolution to work with, and iPad developers could simply develop an iPad-specific version of their app. However, those straightforward days 
+are gone because iPhones and iPads now come in a variety of sizes, and you can only expect to see more resolutions to deal with in the future.
 
-Thankfully you've started developing at the right time and this issue is not as great as it used to be. Auto Layout is a layout engine and with Xcode6/iOS 8 *Adaptive Auto Layout* 
-was introduced which gives you even greater power to create single layout designs that will work across all devices.  Let's first look at the foundation of Auto Layout.
+Thankfully you've started developing at the right time — this issue is not as great as it used to be thanks to a feature Apple invented called Auto Layout, a layout engine for Xcode6/iOS 8. *Adaptive Auto Layout* allows you to create a single layout design that will work across all devices. Let's first look at the foundation of Auto Layout.
 
 ##Preview
 You will be utilizing *Preview* functionality to quickly visualize your design across devices and sanity-check your layouts.
