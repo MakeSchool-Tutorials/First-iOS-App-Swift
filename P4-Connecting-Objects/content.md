@@ -49,12 +49,11 @@ If you don't see the view shown above, you will need to change the right panel b
 You now want to Connect your `IBAction` to the `Button`
  
 > [action]
-> *Control-Click* onto the circle beside the `@IBAction` and drag across to your `Button`. You will see a light blue line as you 
-drag across, then let go.
+> Click on the circle beside the `@IBAction`, drag across to your `Button` (you will see a light blue line between the two), then let go.
 >
 > ![image](ibaction_connection_2.png)
 
-Nice and easy. Notice the previously empty circle is now filled in. Move your cursor over this circle and it will highlight the `Button` showing the connection.
+That was easy. Notice that the previously empty circle is now filled in, and that hovering your cursor over this circle highlights the `Button`, confirming the connection.
 You can also check out any Connections via the `Connection Inspector` panel.
 
 ![image](connection_inspector_1.png)
@@ -94,7 +93,7 @@ Time to try this out for yourself, see if you can:
 >
 
 ##Bonus Points
-Have some fun, create other objects in your *View* and connect them. The best way to learn is to play.
+Have some fun; create other objects in your *View* and connect them. The best way to learn is to play.
 
 ##Debugging
 
@@ -146,6 +145,6 @@ This is because although the code has updated the labels text value, the App sti
 The App will resume running again and you will notice your Label has been updated.  If you select the button again, the breakpoint will 
 be triggered and you will be taken back to the debug mode as before.
 
-We have touched briefly on a lot of different key areas. The best way to embed new skills is practice, practice, practice...
+Now that we've touched briefly on a lot of key skills, the best way to further ingrain them is to practice, practice, pracice...
 
-So without further ado, let's take all of this new knowledge and start to build the *MakeSchool Notes App*
+So with out further ado, let's take all of this new knowledge and start to build the *MakeSchool Notes App*.
