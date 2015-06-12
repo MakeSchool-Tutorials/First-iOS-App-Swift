@@ -3,8 +3,7 @@ title: "Introduction to Interface Builder"
 slug: interface-builder
 ---     
 
-You now have a blank app that runs. No point in waiting any longer, let's jump right in and get acquainted with Interface Builder. 
-The Interface Builder editor within Xcode makes it simple to design a full user interface without writing any code.
+You now have a blank app that runs. There's no point in waiting any longer, so let's jump right in and get acquainted with Interface Builder! The Interface Builder editor within Xcode makes it simple to design a full user interface without writing any code.
 
 ##Views
 
