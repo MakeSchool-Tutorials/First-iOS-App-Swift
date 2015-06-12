@@ -3,7 +3,7 @@ title: "The ViewController"
 slug: the-viewcontroller
 ---     
 
-View controllers are a vital link between an app's data and its visual appearance. Whenever an iOS app displays a user interface, the displayed content is managed by a view controller or a group of view controllers coordinating with each other. Therefore, view controllers provide the skeletal framework on which you build your apps.
+View controllers are a vital link between an app's data and its visual appearance. Whenever an iOS app displays a user interface, the displayed content is managed by a view controller or a group of view controllers coordinating with each other. View controllers are containers for views. Therefore, view controllers provide the skeletal framework on which you build your apps.
 
 The `UIViewController` class is at the heart of the view-management model, you will rarely instantiate `UIViewController` objects directly. Instead you will instantiate subclasses of UIViewController.
 
