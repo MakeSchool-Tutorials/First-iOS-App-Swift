@@ -24,7 +24,7 @@ Although we have only briefly touched on Views and ViewControllers, we have alre
 
 Now would be a great time to introduce *Storyboards*.
 
-##Storyboards
+#Storyboards
  
 A storyboard is a visual representation of the app's user interface, showing screens of content and the transitions between them. You use storyboards to lay out the flow of your app.
 
@@ -46,7 +46,7 @@ If you recall, you will rarely instantiate `UIViewController` directly; instead,
 
 I know you are itching to do some actual coding. However, before we start let's have a look at a powerful feature called *Auto Layout*.
 
-##Auto Layout
+#Auto Layout
 
 Back in days of old, designing an app was relatively straightforward.  You had one resolution to work with, and iPad developers could simply develop an iPad-specific version of their app. However, those straightforward days 
 are gone because iPhones and iPads now come in a variety of sizes, and you can only expect to see more resolutions to deal with in the future.
@@ -74,7 +74,7 @@ You will be glad to know you can now edit this view just like you did with the `
 
 Let's delve into some basic Auto Layout functionality.
 
-##Object Library
+#Object Library
 
 > [action]
 > Open the *Object Library* and find the `Button` object, add this in by dragging it over to your view.
@@ -85,7 +85,7 @@ Let's delve into some basic Auto Layout functionality.
 > 
 > ![image](view_guidelines.png)
 
-##Adding an Alignment Constraint
+#Adding an Alignment Constraint
 
 > Select *Align* and select the `Horizontal Center in Container`
 > Click `Add 1 Constraint`
@@ -107,7 +107,7 @@ Argh, it's at the top! That's because no vertical constraint has been set.  If y
 
 ![image](constraint_warning.png)
 
-##Adding an Pin Constraint
+#Adding an Pin Constraint
 
 > [action]
 > Select your `Button` and then click on *Pin*
@@ -121,7 +121,7 @@ Wooo hoo! The `Button` now appears in our preview at the bottom where we expect 
 > [action] 
 > Change to landscape and you will see that it's yet again in the middle of the app and at the bottom.
 
-##Resolve Auto Layout Issues
+#Resolve Auto Layout Issues
 
 It's great to understand how to add constraints manually and this will come in handy. However, Xcode has some powerful functionality built in to guesstimate your constraints
 and most of the time it's very effective and can save you a lot of time.
@@ -142,7 +142,7 @@ Nice! You will see new constraints have been added. Blue lines represent these c
 We have only just scratched the surface of Auto Layout. If you design with Auto Layout in mind from the beginning, you will be rewarded with an App that hopefully *just works* across devices and 
 reduces the stress of supporting new devices in the future.
 
-##Source Control
+#Source Control
 
 Before we move onto writing code, now would be a good time to commit your changes to source control. Xcode has excellent intergration with Git.
 
