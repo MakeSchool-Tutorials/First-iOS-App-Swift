@@ -6,7 +6,7 @@ slug: connecting-objects
 The time has finally come to start connecting the dots and connecting objects from the Interface Builder to our own code. 
 Your code will connect with interface objects through *IBAction* and *IBOutlet* connections.
 
-##Actions
+#Actions
 
 You will create an `IBAction` when you need to send a message from an object to your code. A good example of this is when a user clicks a button.  This action by the user
 will send a message to execute the function connected to the button. 
@@ -44,7 +44,7 @@ If you don't see the view shown above, you will need to change the right panel b
 
 ![image](automatic_view.png)
 
-##Connecting an Action
+#Connecting an Action
 
 You now want to Connect your `IBAction` to the `Button`
  
@@ -66,7 +66,7 @@ Great, let's see this in action.  Time to run the app...
 
 Excellent! Let's see how you handle yourself with outlets.
 
-##Outlets
+#Outlets
 
 You will want to use an *IBOutlet* to enable your code to send a message to your user interface object. For example, changing the string of an interface label from your own code.
 
@@ -92,10 +92,10 @@ Time to try this out for yourself - see if you can:
     }
 >
 
-##Bonus Points
+#Bonus Points
 Have some fun; create other objects in your *View* and connect them. The best way to learn is to play.
 
-##Debugging
+#Debugging
 
 Sometimes things go wrong in development. At times it can be challenging to find out why a certain piece of code isn't working.  Xcode has a nice Debugger and it's relatively easy to use.
 
@@ -126,7 +126,7 @@ You will notice there is a handy quick view of your label. Notice the label text
 
 ![image](debug_2.png)
 
-##Debug Stepping
+#Debug Stepping
 
 Let's step through the code together.
 
