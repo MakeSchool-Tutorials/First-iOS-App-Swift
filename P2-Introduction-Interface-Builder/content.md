@@ -5,7 +5,7 @@ slug: interface-builder
 
 You now have a blank app that runs. There's no point in waiting any longer, so let's jump right in and get acquainted with Interface Builder! The Interface Builder editor within Xcode makes it simple to design a full user interface without writing any code.
 
-##Views
+#Views
 
 In iOS, you use view controllers and views to present your application's content on the screen. View controllers do not have any visible content themselves but provide a basic container 
 for your application's views. 
@@ -32,7 +32,7 @@ resources attributes.
 *Views* are one of three interconnected parts that comprise the Model-View-Controller (MVC) design pattern (we will be discussing this in more detail).
 Before we move onto the next section to explore the *ViewController*, let's have some fun with the loading screen view.
 
-##Freestyle
+#Freestyle
 
 Design the loading screen of your dreams or create the most ridiculous one you can!
 
