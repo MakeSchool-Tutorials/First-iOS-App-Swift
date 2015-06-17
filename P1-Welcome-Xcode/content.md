@@ -18,7 +18,7 @@ Open up Xcode and you will be presented with the following options:
 Notice the *Version* 6.3.1. Swift is a new language and is still maturing with every release, so you will require at least 6.3.X.
 The easiest way is to install Xcode via the Mac App Store which will always keep you up to date with the latest release.
 
-##Your first project
+#Your first project
 
 Select *Create a new Xcode project*
 
@@ -28,7 +28,7 @@ You will then be presented with the following project options:
 
 As you can see there are a lot of options. Let's take it easy and start off by selecting `Single View Application` and then selecting *Next*.
 
-##Project Options
+#Project Options
 
 You will be presented with the new project options:
 
@@ -37,14 +37,14 @@ You will be presented with the new project options:
 Feel free to give it whatever Product Name or Organization Name you like. It's your project after all! 
 Please ensure you selected *Swift* as the choice for *Language*, then select *Next*.
 
-##Source Control
+#Source Control
 
 Time to save your project to disk:
 
 ![image](xcode_project_2.png)
 
 I would recommend enabling the *Create Git repository* option at the bottom of the dialog.  For a project this size, it may not be strictly necessary. However, it's a great habit to get into
-and source control has saved many a developers' life.  We will explore Source Control with Git a bit later on in this tutorial.
+and source control has saved many a developer's (metaphorical) life.  We will explore Source Control with Git a bit later on in this tutorial.
 
 If you would like some further reading on the joys of Git, you should check out the [Wikipedia Git](http://en.wikipedia.org/wiki/Git_%28software%29).
 
@@ -52,7 +52,7 @@ You might end up with a pop-up that looks like this. You must hit allow to conti
 
 ![image](xcode_permission_popup.png)
 
-##Run, Run, Run
+#Run, Run, Run
 
 It's always good to check that a project works before starting any new work. Simply hit the *Play* icon to *Build* and *Run* the application.
 
