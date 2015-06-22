@@ -73,6 +73,7 @@ You will want to use an *IBOutlet* to enable your code to send a message to your
 Time to try this out for yourself - see if you can:
 
 > [action]
+>
 > 1. Add a label to your View 
 > 2. Create a variable with attribute *IBOutlet* in your `ViewController` class that you will connect to your *UILabel*
 > 3. Connect your View's Label to your code's label variable.
