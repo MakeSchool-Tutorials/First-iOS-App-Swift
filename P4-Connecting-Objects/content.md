@@ -79,6 +79,8 @@ Time to try this out for yourself - see if you can:
 > 3. Connect your View's Label to your code's label variable.
 > 4. Have the label text change upon pressing the button.
 
+=
+
 > [solution]
 > Your view *ViewController* should look something like this:
     class ViewController: UIViewController {
