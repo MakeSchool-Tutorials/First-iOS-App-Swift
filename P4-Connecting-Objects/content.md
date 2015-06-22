@@ -83,8 +83,8 @@ Here's the solution:
 
 > [solution]
 > Your view *ViewController* should look something like this:
+>
     class ViewController: UIViewController {
->        
         @IBOutlet var label: UILabel!
 >
 > Let's look at modifying the `buttonTapped` function to facilitate this.
