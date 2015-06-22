@@ -79,7 +79,7 @@ Time to try this out for yourself - see if you can:
 > 3. Connect your View's Label to your code's label variable.
 > 4. Have the label text change upon pressing the button.
 
-=
+Here's the solution:
 
 > [solution]
 > Your view *ViewController* should look something like this:
@@ -105,6 +105,7 @@ Sometimes things go wrong in development. At times it can be challenging to find
 Let's jump in by adding a breakpoint.
 
 > [action]
+>
 > 1. Open `ViewController.swift`
 > 2. Click on the left hand side of your code, across from `println("Ouch")`, you should see a blue highlight appear.
 >![image](breakpoint_1.png)
@@ -112,6 +113,7 @@ Let's jump in by adding a breakpoint.
 Time to see it in action. 
 
 > [action]
+>
 > 1. Run your App
 > 2. Click on the Button in your App
 
@@ -122,6 +124,7 @@ Xcode will now change and you will be taken back into your code with debug mode 
 As you can see there is a lot of information disabled. We will be looking at the *Variables* view. Xcode will automatically present you with the variables in the current scope.
 
 > [action]
+>
 > 1. Click on `self` to expand the current `ViewController` variable scope.
 > 2. Right click on `label` and select `Print Description of "label"`
 
@@ -134,6 +137,7 @@ You will notice there is a handy quick view of your label. Notice the label text
 Let's step through the code together.
 
 > [action]
+>
 > 1. Press the `Step Over` button.  You will see your println code has now been executed and the output is in the debug window.
 > 2. Press `Step Over` once again and then select `Print Description of "label"`. You will see this has been updated.
 
@@ -143,6 +147,7 @@ Bring your Simulator back into view and you will notice the label hasn't changed
 This is because although the code has updated the labels text value, the App still needs to refresh its View to present this information.
 
 > [action]
+>
 > 1. Select `Continue Program Execution`. It's the button beside `Step Over`
 
 The App will resume running again and you will notice your Label has been updated.  If you select the button again, the breakpoint will 
