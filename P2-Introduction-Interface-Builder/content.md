@@ -5,6 +5,10 @@ slug: interface-builder
 
 You now have a blank app that runs. There's no point in waiting any longer, so let's jump right in and get acquainted with Interface Builder! The Interface Builder editor within Xcode makes it simple to design a full user interface without writing any code.
 
+If you have never used Interface Builder before, you can watch this screencast that will show you how to edit Storyboard files with Interface Builder:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9X_0yZiH2U" frameborder="0" allowfullscreen></iframe>
+
 #Views
 
 In iOS, you use view controllers and views to present your application's content on the screen. View controllers do not have any visible content themselves but provide a basic container 
