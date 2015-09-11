@@ -153,6 +153,8 @@ This is because although the code has updated the labels text value, the App sti
 The App will resume running again and you will notice your Label has been updated.  If you select the button again, the breakpoint will 
 be triggered and you will be taken back to the debug mode as before.
 
-Now that we've touched briefly on a lot of key skills, the best way to further ingrain them is to practice, practice, practice...
+In this brief tutorial you've worked with our main tool - *Xcode* - for the very first time. We've created a screencast that goes along with this tutorial and discusses many advanced features of Xcode:
 
-Without further ado, let's take all of this new knowledge and start to build the *MakeSchool Notes App*.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9TX5aNmMvDU" frameborder="0" allowfullscreen></iframe>
+
+When you're done watching the screencast, it's time to move on to the next project. Let's take all of this new knowledge and start to build the *MakeSchool Notes App*.
