@@ -15,7 +15,7 @@ Open up Xcode and you will be presented with the following options:
 
 ![image](xcode_started_1.png)
 
-Notice the *Version* 6.3.1. Swift is a new language and is still maturing with every release, so you will require at least 6.3.X.
+Notice the *Version* 7.0. Swift is a new language and is still maturing with every release, so you will require at least 7.x.
 The easiest way is to install Xcode via the Mac App Store which will always keep you up to date with the latest release.
 
 #Your first project
