@@ -29,7 +29,7 @@ will send a message to execute the function connected to the button.
 >    
         // Let's handle the button
         @IBAction func buttonTapped(sender: AnyObject) {
-            println("Ouch")
+            print("Ouch")
         }
     }
 
@@ -90,7 +90,7 @@ Here's the solution:
 > Let's look at modifying the `buttonTapped` function to facilitate this.
 >
     @IBAction func buttonTapped(sender: AnyObject) {
-        println("Ouch")
+        print("Ouch")
         label.text = "wooo hoo"
     }
 >
@@ -107,7 +107,7 @@ Let's jump in by adding a breakpoint.
 > [action]
 >
 > 1. Open `ViewController.swift`
-> 2. Click on the left hand side of your code, across from `println("Ouch")`, you should see a blue highlight appear.
+> 2. Click on the left hand side of your code, across from `print("Ouch")`, you should see a blue highlight appear.
 >![image](breakpoint_1.png)
 
 Time to see it in action. 
@@ -117,7 +117,7 @@ Time to see it in action.
 > 1. Run your App
 > 2. Click on the Button in your App
 
-Xcode will now change and you will be taken back into your code with debug mode enabled.  Your App has been effectively halted at the *Breakpoint* and is waiting to execute the `println` line of code.
+Xcode will now change and you will be taken back into your code with debug mode enabled.  Your App has been effectively halted at the *Breakpoint* and is waiting to execute the `print` line of code.
 
 ![image](debug_view_1.png)
 
@@ -138,7 +138,7 @@ Let's step through the code together.
 
 > [action]
 >
-> 1. Press the `Step Over` button.  You will see your println code has now been executed and the output is in the debug window.
+> 1. Press the `Step Over` button.  You will see your print code has now been executed and the output is in the debug window.
 > 2. Press `Step Over` once again and then select `Print Description of "label"`. You will see this has been updated.
 
 ![image](debug_view_2.png)
